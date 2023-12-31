@@ -1,0 +1,40 @@
+.feed-container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.post {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.post-header {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.post-interactions {
+  margin-top: 10px;
+  color: #888;
+}
+
+.comment {
+  margin-top: 5px;
+  color: #555;
+}
+
+.comment-user {
+  font-weight: bold;
+}
+
+.post-interactions {
+  margin-top: 10px;
+  color: #888;
+  cursor: pointer; 
+}
+
+.post-interactions .liked {
+  color: red; /* Change color when liked */
+}
